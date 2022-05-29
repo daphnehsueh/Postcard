@@ -1,24 +1,36 @@
 *{
-    border:solid 1px black;
+    /* border:solid 1px black; */
     position: relative;
-    background-color: rgb(235, 230, 250);
+    
+}
+body{
+    background-color: rgb(247, 246, 246);
+}
+.left-content{
+    display: table-cell;
+    width:50%; 
+    
 }
 
+.right-content{
+    display: table-cell;
+    width:50%;
+   
+}
 .left-content h2{
-    font-size: 30px; 
+    font-size: 15px; 
     width:20px;
-    display:inline;
+    top: 3px;
+    font-weight: 200;
+    line-height: 30px;
 }
 
 .left-content h2 span{ 
-    font-size: 5px;
+    font-size: 30px;
     margin-left: 5px;
-    display:inline;
+    
 }
-.left-content h2{
-    width:200px;
-    font-weight: 200;
-}
+
 .outer-circle-div{
     display: flex;
     justify-content: center;
@@ -31,16 +43,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* align-self: center; */
     text-align: center;
-    /* right: 10px; */
     margin-top:0px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(248, 241, 241);
+    left:20%; top:30px;
 }
 .vertical{
     width: 20px;
     height: 200px;
-    border-left:solid 2px black;
+    border-left:solid 2px rgb(90, 85, 244);
+    left:50px;bottom:3px;
+    
 }
 
 .address p{
@@ -48,5 +61,12 @@
     border-bottom:solid 2px black;
     line-height: 4px;
     position:relative;
-    left:65%; top:30%;
+    left:400%; top:50%;
+}
+.postcard{
+    border:solid 3px black;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-bottom:30px;
+    background-color: rgb(248, 204, 204);
 }
